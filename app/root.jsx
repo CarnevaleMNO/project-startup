@@ -6,6 +6,7 @@ import {
   Outlet,
   useLoaderData,
   ScrollRestoration,
+  Scripts
 } from "remix";
 
 import globalStylesUrl from "~/styles/global.css";
@@ -43,6 +44,7 @@ export default function App() {
         <ScrollRestoration />
        
         {process.env.NODE_ENV === "development" && <LiveReload />}
+        <Scripts />
       </body>
     </html>
   );

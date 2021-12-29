@@ -41,12 +41,12 @@ function Startup() {
     <div className="card">
       <h3>{startup.name}</h3>
       <p>{startup.content}</p>
-      {user.id === startup.userId && (
+      {/* {user.id === startup.userId && (
         <form action="" method="post">
           <input type="hidden" name="_method" value="delete" />
           <button className="btn">Delete</button>
         </form>
-      )}
+      )} */}
     </div>
   );
 }
